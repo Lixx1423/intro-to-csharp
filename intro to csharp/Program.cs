@@ -10,6 +10,20 @@ namespace intro_to_csharp
     {
         static void Main(string[] args)
         {
+            //SampleCode();
+
+            /*Here are some
+            *Multiline
+            *Comments
+            */
+
+
+            Console.ReadKey();
+
+        }
+
+        static void SampleCode()
+        {
             Console.WriteLine("Give me your name");
             string name = Console.ReadLine();
             Console.WriteLine($"Hello {name}.");
@@ -36,13 +50,7 @@ namespace intro_to_csharp
             {
                 Console.WriteLine("I don't know what you wrote.");
             }
-
-
-
-
-
-            Console.ReadKey();
-
         }
+
     }
 }
